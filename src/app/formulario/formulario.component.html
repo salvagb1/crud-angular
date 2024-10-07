@@ -1,0 +1,11 @@
+<form [formGroup]="formulario" (ngSubmit)="guardar()">
+  <div>
+    <label for="nombre">Nombre:</label>
+    <input id="nombre" formControlName="nombre" />
+  </div>
+  <div>
+    <label for="descripcion">Descripción:</label>
+    <input id="descripcion" formControlName="descripcion" />
+  </div>
+  <button type="submit" [disabled]="formulario.invalid">Agregar</button>
+</form>

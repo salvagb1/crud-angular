@@ -1,0 +1,13 @@
+ul {
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    /* Elimina el padding */
+}
+
+li {
+    color: black;
+    /* Establece el color de texto a negro */
+    margin: 5px 0;
+    /* Espaciado entre elementos de la lista */
+}
